@@ -11,8 +11,7 @@ import system.domain.valueobject.BaseId;
  */
 public class OrderItemId extends BaseId<Long> {
 
-
-    protected OrderItemId(Long value) {
+    public OrderItemId(Long value) {
         super(value);
     }
 }
